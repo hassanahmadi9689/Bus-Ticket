@@ -47,7 +47,7 @@ void Run()
                 "1.Normal Buses\n" +
                 "2.VIP Buses");
             Manager.ShowBusByType(busType);
-            var busId = GetNumberFromUser("Enter Bus ID : ...");
+            var busId = GetNumberFromUser("Enter Bus ID : ");
             Manager.BusSelection(busId, busType);
             Manager.ShowCityList();
             var origenId = GetNumberFromUser("Enter Origen Id :");
